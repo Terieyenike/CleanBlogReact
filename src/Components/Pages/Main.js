@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../Common/Footer';
 
 class Main extends React.Component {
   render() {
@@ -80,6 +81,7 @@ class Main extends React.Component {
         </div>
 
         <hr />
+        <Footer />
       </div>
     );
   }

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Common/Header';
 import image from '../assets/img/about-bg.jpg';
+import Footer from '../Common/Footer';
 
 class About extends React.Component {
   render() {
@@ -11,9 +12,9 @@ class About extends React.Component {
           subheading='Software Developer'
           image={image}
         />
-        <div class='container'>
-          <div class='row'>
-            <div class='col-lg-8 col-md-10 mx-auto'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-8 col-md-10 mx-auto'>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
                 nostrum ullam eveniet pariatur voluptates odit, fuga atque ea
@@ -37,6 +38,7 @@ class About extends React.Component {
         </div>
 
         <hr />
+        <Footer />
       </>
     );
   }

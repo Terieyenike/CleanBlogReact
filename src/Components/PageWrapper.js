@@ -37,7 +37,7 @@ class PageWrapper extends Component {
                 </li>
                 <li className='nav-item'>
                   <Link className='nav-link' to='/post'>
-                    Sample Post
+                    Blog
                   </Link>
                 </li>
                 <li className='nav-item'>

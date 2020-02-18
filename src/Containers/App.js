@@ -5,9 +5,9 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 // Pages
 import Home from '../Components/Pages/Home';
-import Main from '../Components/Pages/Main'
-import About from '../Components/Pages/About'
-
+import Post from '../Components/Pages/Post';
+import About from '../Components/Pages/About';
+import Contact from '../Components/Pages/Contact';
 
 class App extends Component {
   render() {
@@ -15,9 +15,9 @@ class App extends Component {
       <Router>
         <PageWrapper>
           <Route exact={true} path='/' component={Home} />
-          <Route path='/post' component={Main} />
+          <Route path='/post' component={Post} />
           <Route path='/about' component={About} />
-
+          <Route path='/contact' component={Contact} />
         </PageWrapper>
       </Router>
     );
