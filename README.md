@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c5b508dc-18c3-4617-b79c-359837967a35/deploy-status)](https://app.netlify.com/sites/cleanblogreact/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
